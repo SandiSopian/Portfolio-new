@@ -1,8 +1,10 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar";
+import Carousel from "./components/Carousel";
 
 function App() {
-  return <h2>Portfolio</h2>;
+  return (<Navbar />), (<Carousel />);
 }
 
 export default App;
